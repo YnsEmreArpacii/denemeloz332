@@ -1,0 +1,17 @@
+img {
+  border-radius: inherit;
+}
+
+.selected {
+  transition: width 0.3s ease;
+}
+
+.active .selected {
+  height: 40px;
+  margin-top: 4px;
+}
+.wrapper:not(.active):hover .selected {
+  display: block;
+  height: 20px;
+  margin-top: 14px;
+}

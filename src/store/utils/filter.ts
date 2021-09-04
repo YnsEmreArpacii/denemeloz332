@@ -1,0 +1,1 @@
+export const unique = (arr: any[]) => (old) => !arr.some(e => e.id === old.id);
